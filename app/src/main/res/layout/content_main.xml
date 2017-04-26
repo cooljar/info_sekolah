@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.co.unila.navia.infosekolah.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/ibSd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="?android:selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    android:text="SD"
+                    android:textStyle="bold"
+                    app:srcCompat="@mipmap/ic_sd" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="SD"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/ibSmp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="?android:selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    android:text="SMP"
+                    android:textStyle="bold"
+                    app:srcCompat="@mipmap/ic_smp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="SMP"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/ibSma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="?android:selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    android:text="SMA"
+                    android:textStyle="bold"
+                    app:srcCompat="@mipmap/ic_sma" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="SMA"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/ibSmk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="?android:selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    android:text="SMK"
+                    android:textStyle="bold"
+                    app:srcCompat="@mipmap/ic_sma" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="SMK"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/ibPeta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="?android:selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    android:text="PETA"
+                    android:textStyle="bold"
+                    app:srcCompat="@mipmap/ic_peta" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PETA"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/ibPeringkat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="?android:selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    android:text="PERINGKAT"
+                    android:textStyle="bold"
+                    app:srcCompat="@mipmap/ic_peringkat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PERINGKAT"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/ibBantuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="?android:selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    android:text="BANTUAN"
+                    android:textStyle="bold"
+                    app:srcCompat="@mipmap/ic_bantuan" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BANTUAN"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/ibTentang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:adjustViewBounds="true"
+                    android:background="?android:selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    android:text="TENTANG"
+                    android:textStyle="bold"
+                    app:srcCompat="@mipmap/ic_tentang" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="TENTANG"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
